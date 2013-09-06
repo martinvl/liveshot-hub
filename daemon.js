@@ -22,7 +22,7 @@ server.listen(PORT);
 // --- Setup socket.io ---
 var transport = io.listen(server);
 
-transport.set('log level', 4);
+transport.set('log level', 0);
 
 var dist = new ObjDist(transport, {prefix:'ranges'});
 var sync = new ObjSync(transport, {delimiter:'/'});
