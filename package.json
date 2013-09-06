@@ -1,0 +1,12 @@
+{
+    "name":"liveshot-hub",
+    "version":"0.1.0b-1",
+    "dependencies":{
+        "express":">=3.0",
+        "liveshot-dom":">=0.1",
+        "objsync":">=0.1",
+        "objdist":">=0.1",
+        "socket.io":">=0.9",
+        "socket.io-client":">=0.9"
+    }
+}
